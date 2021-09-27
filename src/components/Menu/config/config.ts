@@ -36,34 +36,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
   {
-    label: t('Win'),
-    href: '/prediction',
-    icon: 'Trophy',
-    items: [
-      {
-        label: t('Prediction (BETA)'),
-        href: '/prediction',
-      },
-      {
-        label: t('Lottery'),
-        href: '/lottery',
-      },
-    ],
-  },
-  {
-    label: t('NFT'),
-    href: '/collectibles',
-    icon: 'Nft',
-    showOnMobile: false,
-    showItemsOnMobile: false,
-    items: [
-      {
-        label: t('Collectibles'),
-        href: '/collectibles',
-      },
-    ],
-  },
-  {
     label: '',
     href: '/info',
     icon: 'More',
@@ -72,21 +44,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       {
         label: t('Info'),
         href: '/info',
-      },
-      {
-        label: t('IFO'),
-        href: '/ifo',
-      },
-      {
-        label: t('Voting'),
-        href: '/voting',
-      },
-      {
-        type: DropdownMenuItemType.DIVIDER,
-      },
-      {
-        label: t('Leaderboard'),
-        href: '/teams',
       },
       {
         type: DropdownMenuItemType.DIVIDER,
